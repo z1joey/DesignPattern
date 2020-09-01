@@ -55,21 +55,22 @@ public struct DeviceControl {
     public var options: [Option]
 }
 
-let fan = Fan()
-let heat = Heat()
-
-let deviceControl = DeviceControl(options: [fan, heat])
-
+//let fan = Fan()
+//let heat = Heat()
+//
+//let someMode: [Option] = [Fan(), Heat()]
+//let deviceControl = DeviceControl(options: someMode)
+//
 //print(deviceControl.options.count)
-
+//
 //for option in deviceControl.options {
 //    if option.index == 0 && option is Fan {
 //        (option as! Fan).isFanOn.toggle()
 //    }
 //    if option.index == 1 && option is Heat {
-//        (option as! Heat).heatAt = 6
+//        (option as! Heat).heatAt = 9
 //    }
 //}
-
+//
 //print(deviceControl.options.first?.description)
 //print(deviceControl.options.last?.description)
